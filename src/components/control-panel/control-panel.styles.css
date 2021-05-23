@@ -1,0 +1,38 @@
+.control-panel, .control-panel nav {
+  display: flex;
+  justify-content: space-between;
+}
+.control-panel button {
+  background: none;
+  border: none;
+  color: var(--grey);
+  text-transform: uppercase;
+  margin-right: 20px;
+  width: 30px;
+}
+.control-panel button:hover,
+.control-panel button.active {
+  cursor: pointer;
+  color: var(--blue);
+  filter: invert(51%) sepia(45%) saturate(3084%) hue-rotate(160deg)
+    brightness(95%) contrast(102%);
+}
+
+.control-panel button.all {
+  background-image: url(../../assets/matrix.svg);
+  padding-right: 5px;
+}
+
+.control-panel button.new {
+  background-image: url(../../assets/bookmark.svg);
+  background-position-x: 5px;
+}
+
+.control-panel button.top {
+  background-image: url(../../assets/star.svg);
+}
+.control-panel button {
+  background-repeat: no-repeat;
+  background-size: 25px;
+  margin-bottom: -10px;
+}

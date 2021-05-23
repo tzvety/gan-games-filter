@@ -1,0 +1,12 @@
+img {
+  height: 216px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+img { 
+  max-width: 216px;
+}
+.double img {
+  max-width: calc(2 * 216px + 20px);
+}
