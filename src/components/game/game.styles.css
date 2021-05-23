@@ -5,8 +5,9 @@ img {
 }
 
 img { 
-  max-width: 216px;
+  min-width: 216px;
+  /* max-width: 216px; */
 }
-.double img {
+/* .double img {
   max-width: calc(2 * 216px + 20px);
-}
+} */
